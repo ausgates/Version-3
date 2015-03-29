@@ -1,0 +1,108 @@
+@media screen and (max-width: 738px) {
+
+	.gallery {
+		max-width: 530px;
+	}
+}
+
+@media screen and (min-width: 923px) {
+
+	.gallery {
+		max-width: 800px;
+	}
+
+	#notFound {
+		margin: 10 auto;
+		display: block;
+		text-align: center;
+		padding: 0 20%;
+	}
+
+}
+
+@media screen and (min-width: 1060px) {
+
+	#greeting {
+		float: left;
+		position: relative;
+		left: 20%;
+		padding-right: 10px;
+	}
+
+	#landingText {
+		float: right;
+		text-align: left;
+		max-width: 300px;
+		position: relative;
+		right: 20%;
+		margin-top: 50px;
+		margin-bottom: 100px;
+		padding-left: 10px;
+		line-height: 1.5em;
+	}
+
+	header {
+		float: left;
+		margin-left: 5%;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+
+	nav {
+		float: right;
+		max-width: 400px;
+		min-width: 382px;
+		margin-right: 5%;
+		margin-top: 20px;
+		margin-bottom: 15px;
+		padding: 15px 0 15px;
+	}
+
+	nav ul li {
+		padding: 0 20px;
+	}
+
+
+
+	section {
+		max-width: 1018px;
+		margin: auto;
+	}
+
+	.gallery {
+		max-width: 800px;
+	}
+}
+
+@media screen and (min-width: 1250px) {
+	#landingText {
+		max-width: 400px; 
+		margin-top: 75px;
+	}
+}
+
+
+@media screen and (min-width: 1440px) {
+	
+	#landingText {
+		max-width: 500px;
+		margin-top: 100px;
+	}
+}
+
+@media screen and (min-width: 1700px) {
+	#greeting {
+		left: 28%;
+	}
+}
+
+
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+}

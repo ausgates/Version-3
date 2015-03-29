@@ -1,0 +1,321 @@
+/*******************
+Presets
+*******************/
+html,
+body {
+	background-size: 100% 100%;
+	font-family: 'Open Sans', serif;
+	background-color: #ecf0f1;
+ 	height: 100%;
+ 	margin: 0;
+ 	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #999;
+}
+
+a:hover {
+	color: #6e6d6d;
+}
+
+h1 {
+	font-size: 3.5rem;
+	font-weight: 100;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: 100;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+}
+/******************
+Header
+******************/
+header {
+	color: #00aaff;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header a {
+	color: #00aaff;
+}
+
+header a:hover {
+	color: #00aaff;
+}
+
+nav {
+	max-width: 100%;
+	padding: 15px 0;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+nav ul {
+	list-style: none;
+	-webkit-padding-start: 0;
+}
+
+nav ul li {
+	padding: 0 10px;
+	display: inline-block;
+}
+
+nav ul li:hover {
+	flex-grow: 2;
+	transition: .5s;
+}
+
+nav a {
+	padding: 5px 0;
+	color: inherit;
+}
+
+nav a:hover, nav a.selected {
+	color: #00aaff;
+}
+
+nav a.selected {
+	text-decoration: underline;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, transparent, #34495e, transparent);
+}
+/*****************
+Sections
+*****************/
+
+main {
+	text-align: center;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 151px;
+	max-width: 96%;
+	clear: both;
+}
+
+#profileImage {
+	margin: 30px auto;
+	padding: 0;
+	width: 300px;
+	height: 300px;
+	position: relative;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	background: url(Images/me1.jpg) no-repeat;
+	background-position: center;
+}
+
+section {
+	margin-bottom: 25px;
+}
+
+#videos {
+	display: inline-block;
+}
+
+iframe {
+	max-width: 100%;
+	margin: auto;
+	display: block;
+	margin: 20px 0;
+}
+
+.gallery {
+	margin: 20px auto;
+	max-width: 100%;
+}
+
+.gallery img {
+	margin: 10px;
+	border: 2px solid black;
+	box-shadow: 0 0 10px 2px #888888;
+}
+
+.push {
+	clear: both;
+}
+
+
+/****************
+Footer
+****************/
+footer {
+	/*background: linear-gradient(to bottom, #faebd7, #00aaff);*/
+	background: #00aaff;
+	padding-top: 10px;
+	max-height: 151px;
+	max-width: 100%;
+	font-size: .8rem;
+	color: white;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	clear: both;
+}
+
+footer div {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.imageLink {
+	margin: 10px auto;
+	padding: 2px;
+	border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#facebook {
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+#twitter {
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.copyright {
+	margin: 20px 0 0;
+	padding: 0 0 20px;
+}
+
+#notFound h1 {
+	color: firebrick;
+}
+
+/***************************************
+Responsive
+***************************************/
+
+@media screen and (max-width: 738px) {
+
+	.gallery {
+		max-width: 530px;
+	}
+}
+
+@media screen and (min-width: 923px) {
+
+	.gallery {
+		max-width: 800px;
+	}
+
+	#notFound {
+		margin: 10 auto;
+		display: block;
+		text-align: center;
+		padding: 0 20%;
+	}
+
+}
+
+@media screen and (min-width: 1060px) {
+
+	#greeting {
+		float: left;
+		position: relative;
+		left: 20%;
+		padding-right: 10px;
+	}
+
+	#landingText {
+		float: right;
+		text-align: left;
+		max-width: 300px;
+		position: relative;
+		right: 20%;
+		margin-top: 50px;
+		margin-bottom: 100px;
+		padding-left: 10px;
+		line-height: 1.5em;
+	}
+
+	header {
+		float: left;
+		margin-left: 5%;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+
+	nav {
+		float: right;
+		max-width: 400px;
+		min-width: 382px;
+		margin-right: 5%;
+		margin-top: 20px;
+		margin-bottom: 15px;
+		padding: 15px 0 15px;
+	}
+
+	nav ul li {
+		padding: 0 20px;
+	}
+
+
+
+	section {
+		max-width: 1018px;
+		margin: auto;
+	}
+
+	.gallery {
+		max-width: 800px;
+	}
+}
+
+@media screen and (min-width: 1250px) {
+	#landingText {
+		max-width: 400px; 
+		margin-top: 75px;
+	}
+}
+
+
+@media screen and (min-width: 1440px) {
+	
+	#landingText {
+		max-width: 500px;
+		margin-top: 100px;
+	}
+}
+
+@media screen and (min-width: 1700px) {
+	#greeting {
+		left: 28%;
+	}
+}
+
+
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+}
+
+
